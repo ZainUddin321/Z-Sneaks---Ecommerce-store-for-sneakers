@@ -1,0 +1,2 @@
+G:\source\repos\Z-SNEAKERS\angularapp\obj\Release\angularapp.esproj.SuggestedBindingRedirects.cache
+G:\source\repos\Z-SNEAKERS\angularapp\obj\Release\angularapp.esproj.CoreCompileInputs.cache

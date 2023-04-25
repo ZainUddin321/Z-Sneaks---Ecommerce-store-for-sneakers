@@ -1,0 +1,9 @@
+.icons-container{
+    display: inline-flex;
+    justify-content: end;
+}
+.footer-social-icon{
+    height:25px;
+    width:25px;
+    margin:5px;
+}

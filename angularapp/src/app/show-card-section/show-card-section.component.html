@@ -1,0 +1,11 @@
+<section>
+    <div class="container shoe-card-container">
+        <h1 class="shor-card-container-header">{{ Title }}</h1>
+        <div class="row shoe-card-row">
+            <div class="col-lg-3 col-sm-6 col-12" *ngFor="let sneaker of sneakers">
+                <app-shoe-card [sneakerDetail]="sneaker">
+                </app-shoe-card>
+            </div>
+        </div>
+    </div>
+</section>
