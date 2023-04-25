@@ -1,0 +1,37 @@
+body{
+    box-sizing: border-box;
+}
+
+.home-page{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@font-face {
+    font-family: "NoizeSport";
+    src: url("../assets/fonts/NoizeSportFreeVertionRegular.ttf");
+}
+@font-face {
+    font-family: "VTFRedzone";
+    src: url("../assets/fonts/VTFRedzone-ClassicOblique.ttf");
+}
+@font-face {
+    font-family: "AgencyRegular";
+    src: url("../assets/fonts/AGENCYR.TTF");
+}
+@font-face {
+    font-family: "AgencyBold";
+    src: url("../assets/fonts/AGENCYB.TTF");
+}
+@font-face {
+    font-family: "VerminVibesNightClub";
+    src: url("../assets/fonts/VerminVibes2Nightclub.otf");
+}
+@font-face {
+    font-family: "VerminVibesHelium";
+    src: url("../assets/fonts/VerminVibes4Helium.otf");
+}
+@font-face {
+    font-family: "AgencyBold";
+    src: url("../assets/fonts/AGENCYB.TTF");
+}

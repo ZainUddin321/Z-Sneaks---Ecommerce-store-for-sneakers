@@ -1,0 +1,38 @@
+#sneakers-landing-page{
+    min-height:95vh;
+    width:100%;
+    background-image: url(../../assets/gifs/sneaker-1556142169.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+
+.sneakers-landing-page-upper-heading{
+    font-family:"VerminVibesHelium";
+    font-size:2.6em;
+    opacity:0.8;
+    font-weight: 1000;
+    width:60%;
+    padding-top:60px;
+}
+
+.glow {
+  color: #000000;
+  text-align: center;
+  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #888888, 0 0 30px #888888, 0 0 40px #888888, 
+                 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+  }
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 
+                 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}

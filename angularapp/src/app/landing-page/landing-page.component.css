@@ -1,0 +1,96 @@
+#landing-page{
+    min-height:105vh;
+    background-image: url(../../assets/images/front-page-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative;
+    top:-60px;   */
+    z-index: 0;
+}
+
+#landing-page-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top:60px;
+}
+
+.landing-page-maintext{
+    font-size:3em;
+    font-family: "VTFRedzone";
+}
+
+#landing-page-shoe-detail{
+    color:white;
+    margin-top: 100px;
+    z-index: 2;
+}
+
+.yearTextBox{
+    border:1px solid #85c7fd;
+    border-radius: 10px;
+    width: 190px;
+    margin: 30px 0px;
+}
+
+.yearText{
+    font-family: "NoizeSport";
+    color:white;
+    font-size:3em;
+    padding:20px;
+    margin:0;
+}
+
+.landing-page-paragraph{
+    font-size: 1.1em;
+}
+
+.landing-page-shoe-image{
+    position:absolute;
+    display: block;
+    right:0;
+    z-index: 1;
+    height:550px;
+    opacity:1;
+    transition: opacity 1s ease-out;
+}
+
+.landing-page-shoe-image.fade{
+    opacity: 0;
+    height:0;
+}
+
+#shop-now-button{
+    color:aliceblue;
+    border: 1px solid aliceblue;
+}
+
+.landing-page-shoe-color-pallette{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.aqua-color-disc{
+    height: 16px;
+    width: 16px;
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.purple-color-disc{
+    height: 16px;
+    width: 16px;
+    background-color: purple;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.blue-color-disc{
+    height: 16px;
+    width: 16px;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 100%;
+}

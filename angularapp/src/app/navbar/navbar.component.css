@@ -1,0 +1,44 @@
+#navbar-main-container{
+    background-color: #151019;
+}
+
+#nav-bar-container{
+    padding-left:auto;
+    padding-right:auto;
+    background-color: #151019;
+    width:100%;
+}
+
+#nav-bar{
+    color:#85c7fd !important;
+}
+
+.navbar-brand{
+    font-family: "VerminVibesNightClub";
+    font-weight: 600;
+}
+
+#custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+#custom-toggler.navbar-toggler {
+border-color: rgb(255,255,255);
+}
+
+.dropdown-menu {
+  background: #151019;
+  --bs-dropdown-link-hover-bg: #88c8f8;
+}
+
+.dropdown-menu a{
+    color:white;
+}
+
+.nav-item{
+    margin-left:20px;
+    font-family: "VerminVibesNightClub";
+    font-weight: 400;
+}
+
+

@@ -1,0 +1,17 @@
+.shoe-card-container{
+    margin-top:50px;
+}
+
+.shor-card-container-header{
+    font-family: "VTFRedzone";
+}
+
+.shoe-card-row{
+    justify-content: center;
+}
+
+.shoe-card-row > div{
+    display: block;
+    justify-content: center;
+    margin-bottom:10px
+}

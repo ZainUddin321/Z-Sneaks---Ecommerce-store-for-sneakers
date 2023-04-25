@@ -1,0 +1,35 @@
+<section id="landing-page">
+    <div id="landing-page-container" class="container">
+        <div id="landing-page-shoe-detail">         
+            <h1 class="landing-page-maintext">
+                New Arrival <br>
+                SNKRS SHOES
+            </h1>
+            <div class="yearTextBox">
+                <h1 class="yearText">2023</h1>
+            </div>
+            <p class="landing-page-paragraph">
+                Shoes that are designed to move with the natural motion of your foot
+            </p>
+            <div class="landing-page-shoe-color-pallette">
+                <div (click)="changeShoeImageSrc('aqua')" class="aqua-color-disc">
+                    <span></span>
+                </div>
+                <div (click)="changeShoeImageSrc('purple')" class="purple-color-disc">
+                    <span></span>
+                </div>
+                <div (click)="changeShoeImageSrc('blue')" class="blue-color-disc">
+                    <span></span>
+                </div>
+            </div>
+            <button routerLink="/sneakers" id="shop-now-button" mat-stroked-button>
+                Shop now
+            </button>
+        </div>
+        <div id="landing-page-shoe-image-container">
+            <img class="landing-page-shoe-image img-fluid landing-page-img-1" src="/assets/images/shoe1.png" alt="Nike shoe">
+            <img class="landing-page-shoe-image img-fluid landing-page-img-2 fade" src="/assets/images/shoe2.png" alt="Nike shoe">
+            <img class="landing-page-shoe-image img-fluid landing-page-img-3 fade" src="/assets/images/shoe3.png" alt="Nike shoe">
+        </div>
+    </div>
+</section>

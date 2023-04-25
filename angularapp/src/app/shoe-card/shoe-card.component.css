@@ -1,0 +1,15 @@
+.card-img-top{
+    cursor: pointer;
+}
+
+.card-title{
+    font-family: "AgencyRegular";
+    font-weight: 700;
+    font-size:1.1em;
+}
+
+.brand-name{
+    font-family: "AgencyRegular";
+    font-weight: 400;
+    font-size:0.9em;
+}
