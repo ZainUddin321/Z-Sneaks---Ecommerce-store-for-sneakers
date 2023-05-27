@@ -50,6 +50,11 @@ export class SneakerDetailComponent {
     this.id = this.route.snapshot.params['id'];
     this.taskSubscription=this.sneakersApi.getSneakerById(this.id).subscribe((result) => {
       if (result) {
+        if(result.releaseDate){
+          const date = new Date(result.releaseDate);
+          result.releaseDate=date.toDateString();
+        }
+        result.sizeRange.sort(function(a,b) { return a - b;});
         this.sneaker = result;
       }
     }, error => console.error(error));
@@ -57,4 +62,5 @@ export class SneakerDetailComponent {
   ngOnDestroy(){
     this.taskSubscription.unsubscribe();
   }
+
 }

@@ -1,0 +1,94 @@
+#shoedetail-mainImage{
+    height:80vh;
+}
+.shoedetail-sizeRange-btn {
+    margin: 4px 4px 0px 0px;
+    width: 80px !important;
+    height:40px;
+    font-weight: 400;
+    border-radius: 0px;
+}
+
+.shoedetail-sizeRange-btn:hover{
+    border: 1px solid black;
+}
+
+.shoedetail-sizeRange-btn:focus{
+    border: 1px solid black;
+}
+
+.shoeDetail-sneakerName{
+    font-family: "VTFRedzone";
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+.shoeDetail-brandName{
+    font-family: "AgencyRegular";
+    font-size:1.2em;
+    font-weight: 700;
+    color:dimgray;
+}
+
+.shoeDetail-sizeRange-selectText{
+    font-family: "AgencyRegular";
+    font-size:1.2em;
+    font-weight: 700;
+    color:black;
+    margin-top:2em;
+}
+
+.shoedetail-sizeRange-btnContainer{
+    margin-bottom: 20px;
+}
+
+.shoedetail-pricing-container{
+    display: flex;
+    gap:20px;
+    font-size:2.3em;
+    align-items: center;
+    margin-top:1em;
+}
+
+.shoedetail-pricing-container p{
+    font-family: "AgencyBold";
+    border:1px solid black;
+    border-radius:5px;
+    margin:0px;
+    padding:8px 10px;
+    color:#4b92cc;
+}
+
+#shoedetail-addToCart-btn{
+    display: inline;
+    color:white;
+    background-color: black;
+    font-family: "VerminVibesNightClub";
+}
+
+#shoedetail-addToCart-icon svg{
+    height:16px;
+    width:16px;
+    color:white !important;
+    fill:white;
+    margin-top:-2px;
+    margin-right:10px;
+}
+
+.shoeDetail-heading{
+    font-family: "VTFRedzone";
+}
+
+hr{
+    border: 1px dotted black;
+}
+
+.agencyBold{
+    font-family: "AgencyBold";
+    font-size:1.2em;
+}
+
+.agencyRegular{
+    font-family: "AgencyRegular";
+    font-size:1.2em;
+}
