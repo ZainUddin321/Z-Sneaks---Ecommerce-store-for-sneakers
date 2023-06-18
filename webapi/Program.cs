@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using webapi.Models.DatabaseSettingsModels;
 using webapi.Services;
 
@@ -14,7 +17,34 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<ZSneaksDatabaseSettings>(
     builder.Configuration.GetSection("ZSneaksDatabase"));
 
+builder.Services.Configure<UsersDatabaseSettings>(
+    builder.Configuration.GetSection("UsersDatabase"));
+
+builder.Services.Configure<CartDatabaseSettings>(
+    builder.Configuration.GetSection("CartDatabase"));
+
 builder.Services.AddSingleton<SneakersService>();
+
+builder.Services.AddSingleton<UserService>();
+
+builder.Services.AddSingleton<CartService>();
+
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x =>
+{
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MyAuthenticationKey")),
+        ValidateAudience = false,
+        ValidateIssuer = false
+    };
+});
 
 var app = builder.Build();
 
@@ -28,6 +58,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

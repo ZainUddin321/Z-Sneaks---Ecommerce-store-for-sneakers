@@ -41,4 +41,20 @@ border-color: rgb(255,255,255);
     font-weight: 400;
 }
 
+.loginBtn{
+    display: flex;
+    gap:8px;
+}
 
+#login-user-icon{
+    fill:white !important;
+    width: 12px;
+    height: 12px;
+    margin-bottom: 5px;
+    position: relative;
+    top:-2px;
+}
+
+#userDropDown::after{
+    margin-top:7px;
+}

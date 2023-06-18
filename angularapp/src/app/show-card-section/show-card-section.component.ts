@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Sneakers } from '../sneakers-api.service';
+import { Sneakers } from '../Services/sneakers-api.service';
 @Component({
   selector: 'app-show-card-section',
   templateUrl: './show-card-section.component.html',

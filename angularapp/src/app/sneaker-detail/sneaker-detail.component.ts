@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { Sneakers, SneakersApiService } from '../sneakers-api.service';
+import { Sneakers, SneakersApiService } from '../Services/sneakers-api.service';
 import { Subscription } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
+import { CartService } from '../Services/cart.service';
 
 @Component({
   selector: 'app-sneaker-detail',
@@ -45,7 +46,7 @@ export class SneakerDetailComponent {
   };
   id:number=397517;
   taskSubscription: Subscription = new Subscription;
-  constructor(private sneakersApi: SneakersApiService, private route:ActivatedRoute) { }
+  constructor(private sneakersApi: SneakersApiService, private cartService:CartService, private route:ActivatedRoute) { }
   ngOnInit() {
     this.id = this.route.snapshot.params['id'];
     this.taskSubscription=this.sneakersApi.getSneakerById(this.id).subscribe((result) => {
@@ -61,6 +62,14 @@ export class SneakerDetailComponent {
   }
   ngOnDestroy(){
     this.taskSubscription.unsubscribe();
+  }
+
+  addToCart(){
+    this.cartService.addToCart(this.sneaker).subscribe((result) => {
+      if (result) {
+        console.log(result);
+      }
+    }, error => console.error(error.error));
   }
 
 }

@@ -1,0 +1,147 @@
+<section id="login-section">
+    <div class="container">
+    <div id="login-container">
+        <div class="row">
+            <div class="col-sm-8 col-md-6 col-12 mx-auto">
+                <div id="login-button-container">
+                    <button #loginBtn [ngClass]="{'active': activeSection=='Login'}" (click)="changeSection('Login')">Login</button>
+                    <button #signupBtn [ngClass]="{'active': activeSection=='SignUp'}" (click)="changeSection('SignUp')">Sign Up</button>
+                </div>
+                <form #form="ngForm" (ngSubmit)="onFormSubmit()">
+                    <div *ngIf="activeSection == 'SignUp'" class="form-floating mb-4 login-form-field">
+                        <input type="text"
+                         class="form-control" 
+                         id="floatingInput" 
+                         placeholder="firstname"
+                         name="firstname"
+                         required
+                         [(ngModel)]="userData.firstName"
+                         #firstname="ngModel">
+                        <label class="login-label-field" for="floatingInput">First Name</label>
+                        <div class="error-message-container">
+                            <span *ngIf="firstname.invalid && firstname.touched" class="errorNotification">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+                                <span *ngIf="firstname.errors?.['required']" class="error-text">This is required field.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div *ngIf="activeSection == 'SignUp'" class="form-floating mb-4 login-form-field">
+                        <input type="text" 
+                        class="form-control" 
+                        id="floatingInput" 
+                        placeholder="lastname"
+                        name="lastname"
+                        required
+                        [(ngModel)]="userData.lastName"
+                        #lastname="ngModel">
+                        <label class="login-label-field" for="floatingInput">Last Name</label>
+                        <div class="error-message-container">
+                            <span *ngIf="lastname.invalid && lastname.touched" class="errorNotification">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+                                <span *ngIf="lastname.errors?.['required']" class="error-text">This is required field.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-floating mb-4 login-form-field">
+                        <input type="text" 
+                        class="form-control" 
+                        id="floatingInput" 
+                        placeholder="username"
+                        name="username"
+                        required
+                        minlength="8"
+                        (focusout)="onUsernameFieldFocusOut()"
+                        [(ngModel)]="userData.userName"
+                        #username="ngModel">
+                        <label class="login-label-field" for="floatingInput">User Name</label>
+                        <div class="error-message-container">
+                            <span *ngIf="username.invalid && username.touched" class="errorNotification">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+                                <span *ngIf="username.errors?.['required']" class="error-text">This is required field.</span>
+                                <span *ngIf="username.errors?.['minlength']" class="error-text">Username must contain atleast 8 characters.</span>
+                                <span *ngIf="userNameErrorMessage != ''" class="error-text">Username must contain atleast 8 characters.</span>
+                            </span>
+                            <span *ngIf="username.valid && username.touched && userNameErrorMessage != ''" class="errorNotification">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+                                <span class="error-text">{{userNameErrorMessage}}</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div *ngIf="activeSection == 'SignUp'" class="form-floating mb-4 login-form-field">
+                        <input type="email" 
+                        class="form-control" 
+                        id="floatingInput" 
+                        placeholder="name@example.com"
+                        name="email"
+                        required
+                        email
+                        [(ngModel)]="userData.email"
+                        #email="ngModel">
+                        <label class="login-label-field" for="floatingInput">Email address</label>
+                        <div class="error-message-container">
+                            <span *ngIf="email.invalid && email.touched" class="errorNotification">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+                                <span *ngIf="email.errors?.['required']" class="error-text">This is required field.</span>
+                                <span *ngIf="!email.errors?.['required'] && email.errors?.['email']" class="error-text">Your email pattern is invalid.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-floating mb-3 login-form-field">
+                        <input type="password" 
+                        class="form-control" 
+                        id="floatingPassword" 
+                        placeholder="Password"
+                        name="password"
+                        required
+                        minlength="8"
+                        [(ngModel)]="userData.password"
+                        #password="ngModel">
+                        <label class="login-label-field" for="floatingPassword">Password</label>
+                        <div class="error-message-container">
+                            <span *ngIf="password.invalid && password.touched" class="errorNotification">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+                                <span *ngIf="password.errors?.['required']" class="error-text">This is required field.</span>
+                                <span *ngIf="password.errors?.['minlength']" class="error-text">Username must contain atleast 8 characters.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div *ngIf="activeSection == 'SignUp'" class="form-floating mb-3 login-form-field">
+                        <input type="password" 
+                        class="form-control" 
+                        id="floatingPassword" 
+                        placeholder="Password"
+                        name="comfirmpassword"
+                        required
+                        minlength="8"
+                        [(ngModel)]="userData.confirmpassword"
+                        #confirmpassword="ngModel">
+                        <label class="login-label-field" for="floatingPassword">Comfirm Password</label>
+                        <div class="error-message-container">
+                            <span *ngIf="confirmpassword.invalid && confirmpassword.touched" class="errorNotification">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+                                <span *ngIf="confirmpassword.errors?.['required']" class="error-text">This is required field.</span>
+                                <span *ngIf="confirmpassword.errors?.['minlength']" class="error-text">Username must contain atleast 8 characters.</span>
+                            </span>
+                            <span *ngIf="confirmpassword.valid && confirmpassword.touched && password.value != confirmpassword.value" class="errorNotification">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+                                <span class="error-text">Password doesn't match.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <span *ngIf="invalidUsernameOrPassword != ''" class="errorNotification">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+                            <span class="error-text">{{invalidUsernameOrPassword}}</span>
+                        </span>
+                        <button id="submit-button" 
+                            type="submit" 
+                            [disabled]="(activeSection=='Login' && form.form.invalid) || (activeSection=='SignUp' && (form.form.invalid || userData.confirmpassword != userData.password || userNameErrorMessage!=''))">
+                            {{activeSection}}
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>

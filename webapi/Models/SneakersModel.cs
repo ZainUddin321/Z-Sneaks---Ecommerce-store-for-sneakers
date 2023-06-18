@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using Newtonsoft.Json;
 
 namespace webapi.Models
 {
@@ -46,7 +47,7 @@ namespace webapi.Models
         public int SneakerID { get; set; }
 
         [BsonElement("keywords")]
-        public object[] Keywords { get; set; }
+        public string[] Keywords { get; set; }
 
         [BsonElement("main_picture_url")]
         public string MainPictureUrl { get; set; }
