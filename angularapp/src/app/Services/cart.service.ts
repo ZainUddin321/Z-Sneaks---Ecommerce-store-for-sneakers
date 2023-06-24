@@ -19,6 +19,10 @@ export class CartService {
     });
   }
 
+  getProductsOfCart(){
+    return this.http.get<Sneakers[]>(`/api/Cart/getProductsOfCart/${this.userName}`);
+  }
+
   addToCart(sneaker:Sneakers){
     return this.http.post<any>(`/api/Cart/addToCart/${this.userName}`, sneaker);
   }

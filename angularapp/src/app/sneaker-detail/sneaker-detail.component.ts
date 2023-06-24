@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 import { Sneakers, SneakersApiService } from '../Services/sneakers-api.service';
 import { Subscription } from 'rxjs';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CartService } from '../Services/cart.service';
+import { userInfo } from 'os';
+import { AuthService } from '../Services/auth.service';
 
 @Component({
   selector: 'app-sneaker-detail',
@@ -46,7 +48,11 @@ export class SneakerDetailComponent {
   };
   id:number=397517;
   taskSubscription: Subscription = new Subscription;
-  constructor(private sneakersApi: SneakersApiService, private cartService:CartService, private route:ActivatedRoute) { }
+  constructor(private sneakersApi: SneakersApiService,
+    private cartService:CartService, 
+    private authService:AuthService,
+    private route:ActivatedRoute, 
+    private router: Router) { }
   ngOnInit() {
     this.id = this.route.snapshot.params['id'];
     this.taskSubscription=this.sneakersApi.getSneakerById(this.id).subscribe((result) => {
@@ -65,11 +71,13 @@ export class SneakerDetailComponent {
   }
 
   addToCart(){
-    this.cartService.addToCart(this.sneaker).subscribe((result) => {
-      if (result) {
-        console.log(result);
-      }
-    }, error => console.error(error.error));
+    if(this.authService.isLoggedIn()){
+      this.cartService.addToCart(this.sneaker).subscribe((result) => {
+        if (result) {
+          this.router.navigate(['cart']);
+        }
+      }, error => console.error(error.error));
+    }
   }
 
 }

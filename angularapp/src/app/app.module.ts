@@ -8,7 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { MatButtonModule } from '@angular/material/button';
+import { MatButtonModule, MatIconButton } from '@angular/material/button';
 import { HomePageSecondSectionComponent } from './home-page-second-section/home-page-second-section.component';
 import { BrandLogosComponent } from './brand-logos/brand-logos.component';
 import { FooterComponent } from './footer/footer.component';
@@ -22,6 +22,7 @@ import { TokenInterceptor } from './Interceptor/token.interceptor';
 import { LoginComponent } from './login/login.component';
 import { AuthGuard } from './Guards/auth.guard';
 import { CartComponent } from './cart/cart.component';
+import { MatIconModule } from '@angular/material/icon';
 
 const appRoutes: Routes = [
   { path: '', component: HomePageComponent },
@@ -54,6 +55,7 @@ const appRoutes: Routes = [
     HttpClientModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    MatIconModule,
     FontAwesomeModule,
     RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'top'})
   ],

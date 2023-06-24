@@ -34,7 +34,7 @@ export class LoginComponent {
       this.activeSection="SignUp";
     }
   }
-
+  
   onUsernameFieldFocusOut(){
     if(this.activeSection == "SignUp"){
       this.authService.checkUserExists(this.userData.userName)

@@ -1,38 +1,70 @@
 #cart-section{
     background: #ffffff;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     vertical-align: middle;
     display: flex;
-    font-family: sans-serif;
+    justify-content: center;
     font-size: 0.8rem;
     font-weight: bold;
 } 
+
+.cart-items{
+    height:80%;
+    overflow-y: auto;
+}
+
+.cart-heading{
+    font-family: "VTFRedzone";
+}
+
+.cart-sneak-name{
+    font-family: "AgencyBold";
+    font-size: 15px;
+}
+
+.cart-sneak-brandname{
+    font-family: "AgencyRegular";
+    font-size: 14px;
+}
+
+.cart-sneak-price{
+    text-align: center;
+    font-size: 20px;
+    font-family: "AgencyBold";
+    color: #4b92cc;
+}
 
 .title{
     margin-bottom: 5vh;
 }
 .card{
-    margin: auto;
-    max-width: 80vw;
+    /* margin: auto; */
+    /* min-width: 100vw; */
     width: 90%;
+    margin-top:8px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 1rem;
     border: transparent;
 }
 @media(max-width:767px){
     .card{
-        margin: 3vh auto;
+        margin: 0px;
+        width:100%;
     }
 }
 .cart{
+    position: relative;
+    height:90vh;
     background-color: #fff;
     padding: 4vh 5vh;
+    padding-right: 0px;
     border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
 }
 @media(max-width:767px){
     .cart{
         padding: 4vh;
+        padding-right: 0px;
         border-bottom-left-radius: unset;
         border-top-right-radius: 1rem;
     }
@@ -112,7 +144,7 @@ input:focus::-webkit-input-placeholder
 {
       color:transparent;
 }
-.btn{
+.checkout-btn{
     background-color: #000;
     border-color: #000;
     color: white;
@@ -122,7 +154,7 @@ input:focus::-webkit-input-placeholder
     padding: 1vh;
     border-radius: 0;
 }
-.btn:focus{
+.checkout-btn:focus{
     box-shadow: none;
     outline: none;
     box-shadow: none;
@@ -131,7 +163,7 @@ input:focus::-webkit-input-placeholder
     -webkit-user-select: none;
     transition: none; 
 }
-.btn:hover{
+.checkout-btn:hover{
     color: white;
 }
 a{
@@ -146,4 +178,48 @@ a:hover{
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: center;
+}
+
+/* Quantity counter styling */
+
+.counter-wrapper{
+    height: 20px;
+    min-width: 30px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background: #FFF;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  .counter-wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+  }
+  .counter-wrapper span.num{
+    font-size: 13px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+  }
+
+.back-to-shop{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+.cart-remove-btn{
+    height:30px;
+    width:30px;
+    padding:0;
+}
+
+.cart-remove-btn mat-icon{
+    vertical-align: middle;
 }

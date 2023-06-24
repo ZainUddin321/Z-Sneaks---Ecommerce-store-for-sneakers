@@ -1,16 +1,27 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using webapi.Models;
 using webapi.Services;
 
 namespace webapi.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     public class CartController: Controller
     {
         public readonly CartService _cartService;
         public CartController(CartService cartService)
         {
             _cartService = cartService;
+        }
+
+        [HttpGet("getProductsOfCart/{username}")]
+        public async Task<List<SneakersModel>> GetProductsOfCart(string username)
+        {
+            CartModel cart = new CartModel();
+            cart = await _cartService.GetByUserNameAsync(username);
+
+            return cart.Sneakers;
         }
 
         [HttpPost("addToCart/{username}")]

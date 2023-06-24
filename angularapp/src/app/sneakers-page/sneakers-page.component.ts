@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Sneakers,SneakersApiService } from '../Services/sneakers-api.service';
+import { debug } from 'console';
 @Component({
   selector: 'app-sneakers-page',
   templateUrl: './sneakers-page.component.html',
