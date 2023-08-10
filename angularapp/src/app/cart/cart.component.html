@@ -40,23 +40,11 @@
                 </div>
             </div>
             <div class="col-md-4 summary">
-                <div><h5><b>Summary</b></h5></div>
-                <hr>
-                <div class="row">
-                    <div class="col" style="padding-left:0;">ITEMS {{sneakers.length}}</div>
-                    <div class="col text-right">${{totalPrice}}</div>
-                </div>
-                <form>
-                    <p>SHIPPING</p>
-                    <select><option class="text-muted">Standard-Delivery- $5.00</option></select>
-                    <p>GIVE CODE</p>
-                    <input id="code" placeholder="Enter your code" >
-                </form>
-                <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
-                    <div class="col">TOTAL PRICE</div>
-                    <div class="col text-right">${{totalPrice + 5}}</div>
-                </div>
-                <button class="btn checkout-btn">CHECKOUT</button>
+                <div ></div>
+                <app-cart-summary *ngIf="cartPageType == 'Summary'; else cartOrderPage"  (changeCartPageEvent)="changeCartPageType($event)" [totalPrice]="totalPrice" [noOfItems]="sneakers.length"></app-cart-summary>
+                <ng-template #cartOrderPage>
+                    <app-cart-order #cartOrderPage (removeItemsFromCartEvent)="removeItemsFromCart()" (changeCartPageEvent)="changeCartPageType($event)" [totalPrice]="totalPrice" [noOfItems]="sneakers.length"></app-cart-order>
+                </ng-template>
             </div>
         </div>
     </div>

@@ -1,0 +1,21 @@
+<div>
+    <div>
+        <h5><b>Summary</b></h5>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col">ITEMS {{ noOfItems }}</div>
+        <div class="col text-right">${{totalPrice}}</div>
+    </div>
+    <form>
+        <p>SHIPPING</p>
+        <select><option class="text-muted">Standard-Delivery- $5.00</option></select>
+        <p>GIVE CODE</p>
+        <input id="code" placeholder="Enter your code" >
+    </form>
+    <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+        <div class="col">TOTAL PRICE</div>
+        <div class="col text-right">${{totalPrice + 5}}</div>
+    </div>
+    <button class="btn checkout-btn" (click)="changeCartPage()" [disabled]='noOfItems == 0'>CHECKOUT</button>
+</div>

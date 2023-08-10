@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
 import { Sneakers,SneakersApiService } from '../Services/sneakers-api.service';
 import { debug } from 'console';
+import { ShowCardSectionComponent } from '../show-card-section/show-card-section.component';
 @Component({
-  selector: 'app-sneakers-page',
-  templateUrl: './sneakers-page.component.html',
-  styleUrls: ['./sneakers-page.component.css']
+    selector: 'app-sneakers-page',
+    templateUrl: './sneakers-page.component.html',
+    styleUrls: ['./sneakers-page.component.css'],
+    standalone: true,
+    imports: [ShowCardSectionComponent]
 })
 export class SneakersPageComponent {
   sneakers: Sneakers[][]=[];

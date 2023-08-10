@@ -30,4 +30,8 @@ export class CartService {
   removeFromCart(sneaker:Sneakers){
     return this.http.post<any>(`/api/Cart/removeFromCart/${this.userName}`, sneaker);
   }
+
+  removeItemsFromUserCart() {
+    return this.http.get<any>(`/api/Cart/removeItemsFromUserCart/${this.userName}`);
+  }
 }

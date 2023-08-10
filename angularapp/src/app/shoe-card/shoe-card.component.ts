@@ -1,10 +1,13 @@
 import { Component, Input } from '@angular/core';
 import { Sneakers } from '../Services/sneakers-api.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-shoe-card',
-  templateUrl: './shoe-card.component.html',
-  styleUrls: ['./shoe-card.component.css']
+    selector: 'app-shoe-card',
+    templateUrl: './shoe-card.component.html',
+    styleUrls: ['./shoe-card.component.css'],
+    standalone: true,
+    imports: [RouterLink]
 })
 export class ShoeCardComponent {
   @Input() sneakerDetail:Sneakers={

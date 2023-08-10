@@ -1,9 +1,10 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'app-brand-logos',
-  templateUrl: './brand-logos.component.html',
-  styleUrls: ['./brand-logos.component.css']
+    selector: 'app-brand-logos',
+    templateUrl: './brand-logos.component.html',
+    styleUrls: ['./brand-logos.component.css'],
+    standalone: true
 })
 export class BrandLogosComponent {
   @ViewChild('brandLogoContainer') brandLogoContainer!: ElementRef;

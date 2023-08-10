@@ -1,9 +1,12 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-home-page-second-section',
-  templateUrl: './home-page-second-section.component.html',
-  styleUrls: ['./home-page-second-section.component.css']
+    selector: 'app-home-page-second-section',
+    templateUrl: './home-page-second-section.component.html',
+    styleUrls: ['./home-page-second-section.component.css'],
+    standalone: true,
+    imports: [RouterLink]
 })
 export class HomePageSecondSectionComponent {
   firstShoeSectionRendered:boolean=false;

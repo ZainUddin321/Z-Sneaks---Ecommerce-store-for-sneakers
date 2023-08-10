@@ -1,13 +1,17 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { NgForm } from '@angular/forms';
+import { NgForm, FormsModule } from '@angular/forms';
 import { AuthService } from '../Services/auth.service';
 import { Router } from '@angular/router';
 import { UserStoreService } from '../Services/user-store.service';
+import { NgClass, NgIf } from '@angular/common';
+import { NgToastService } from 'ng-angular-popup';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+    selector: 'app-login',
+    templateUrl: './login.component.html',
+    styleUrls: ['./login.component.css'],
+    standalone: true,
+    imports: [NgClass, FormsModule, NgIf]
 })
 export class LoginComponent {
   activeSection:string = "Login";
@@ -24,7 +28,7 @@ export class LoginComponent {
   @ViewChild('form') form!: NgForm;
   userNameErrorMessage:string = "";
   invalidUsernameOrPassword:string = "";
-  constructor(private authService: AuthService, private router:Router, private userStore: UserStoreService){  }
+  constructor(private authService: AuthService, private router:Router, private userStore: UserStoreService, private toast: NgToastService){  }
   changeSection(sectionName:string){
     this.form.resetForm();
     if(sectionName == "Login"){
@@ -63,10 +67,12 @@ export class LoginComponent {
             this.userStore.setRoleForStore(tokenPayload.role);
             this.userStore.setUserNameForStore(tokenPayload.username);
             this.router.navigate(['']);
+            this.toast.success({detail: 'Success', summary: result.message, duration:2000}); 
           }
         }, (error) => {
           if(error && error.error && error.error.message){
-            this.invalidUsernameOrPassword= error.error.message;          
+            this.invalidUsernameOrPassword= error.error.message;    
+            this.toast.error({detail: 'Error', summary: this.invalidUsernameOrPassword, duration:2000});    
           }
         });
       }else if(this.activeSection == "SignUp"){
@@ -75,9 +81,11 @@ export class LoginComponent {
             this.form.resetForm();
             this.activeSection = "Login";
             this.router.navigate(['login']);
-            console.log(result);
+            this.toast.success({detail: 'Success', summary: result.message, duration:2000});  
           }
-        }, error => console.error(error));
+        }, error => {
+          this.toast.error({detail: 'Error', summary: error.error.message, duration:2000});    
+        });
       }
     }
   }

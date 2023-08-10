@@ -1,6 +1,6 @@
 .icons-container{
     display: inline-flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .footer-social-icon{
     height:25px;

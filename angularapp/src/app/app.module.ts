@@ -23,6 +23,9 @@ import { LoginComponent } from './login/login.component';
 import { AuthGuard } from './Guards/auth.guard';
 import { CartComponent } from './cart/cart.component';
 import { MatIconModule } from '@angular/material/icon';
+import { NgToastModule } from 'ng-angular-popup';
+import { CartSummaryComponent } from './cart-summary/cart-summary.component';
+import { CartOrderComponent } from './cart-order/cart-order.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomePageComponent },
@@ -34,37 +37,38 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    LandingPageComponent,
-    HomePageComponent,
-    HomePageSecondSectionComponent,
-    BrandLogosComponent,
-    FooterComponent,
-    ShoeCardComponent,
-    ShowCardSectionComponent,
-    SneakersPageComponent,
-    SneakerDetailComponent,
-    LoginComponent,
-    CartComponent,
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpClientModule,
-    BrowserAnimationsModule,
-    MatButtonModule,
-    MatIconModule,
-    FontAwesomeModule,
-    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'top'})
-  ],
-  providers: [{
-    provide:HTTP_INTERCEPTORS,
-    useClass:TokenInterceptor,
-    multi:true
-  },AuthGuard],
-  bootstrap: [AppComponent]
+    declarations: [AppComponent],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpClientModule,
+        BrowserAnimationsModule,
+        MatButtonModule,
+        MatIconModule,
+        NgToastModule,
+        FontAwesomeModule,
+        RouterModule.forRoot(appRoutes, { scrollPositionRestoration: 'top' }),
+        NavbarComponent,
+        LandingPageComponent,
+        HomePageComponent,
+        HomePageSecondSectionComponent,
+        BrandLogosComponent,
+        FooterComponent,
+        ShoeCardComponent,
+        ShowCardSectionComponent,
+        SneakersPageComponent,
+        SneakerDetailComponent,
+        LoginComponent,
+        CartComponent,
+        CartSummaryComponent,
+        CartOrderComponent
+    ],
+    providers: [{
+            provide: HTTP_INTERCEPTORS,
+            useClass: TokenInterceptor,
+            multi: true
+        }, AuthGuard],
+    bootstrap: [AppComponent]
 })
 export class AppModule {
 }

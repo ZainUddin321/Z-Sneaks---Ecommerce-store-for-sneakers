@@ -5,11 +5,16 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { CartService } from '../Services/cart.service';
 import { userInfo } from 'os';
 import { AuthService } from '../Services/auth.service';
+import { MatButtonModule } from '@angular/material/button';
+import { NgFor, NgIf } from '@angular/common';
+import { NgToastService } from 'ng-angular-popup';
 
 @Component({
-  selector: 'app-sneaker-detail',
-  templateUrl: './sneaker-detail.component.html',
-  styleUrls: ['./sneaker-detail.component.css']
+    selector: 'app-sneaker-detail',
+    templateUrl: './sneaker-detail.component.html',
+    styleUrls: ['./sneaker-detail.component.css'],
+    standalone: true,
+    imports: [NgFor, MatButtonModule, NgIf]
 })
 export class SneakerDetailComponent {
   sneaker: Sneakers={
@@ -52,7 +57,8 @@ export class SneakerDetailComponent {
     private cartService:CartService, 
     private authService:AuthService,
     private route:ActivatedRoute, 
-    private router: Router) { }
+    private router: Router,
+    private toast:NgToastService) { }
   ngOnInit() {
     this.id = this.route.snapshot.params['id'];
     this.taskSubscription=this.sneakersApi.getSneakerById(this.id).subscribe((result) => {
@@ -75,8 +81,14 @@ export class SneakerDetailComponent {
       this.cartService.addToCart(this.sneaker).subscribe((result) => {
         if (result) {
           this.router.navigate(['cart']);
+          this.toast.success({detail:"Success!", summary:result.message, duration:2000});
         }
-      }, error => console.error(error.error));
+      }, (error) => {
+        this.toast.error({detail:"Error!", summary:error.error.message, duration:2000});
+      });
+    }else{
+      this.router.navigate(['login']);
+      this.toast.info({detail:"Information!", summary:"You must be logged in add item in cart!", duration:2000});
     }
   }
 

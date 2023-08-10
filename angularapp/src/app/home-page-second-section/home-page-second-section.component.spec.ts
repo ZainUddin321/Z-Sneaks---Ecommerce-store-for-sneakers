@@ -8,8 +8,8 @@ describe('HomePageSecondSectionComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HomePageSecondSectionComponent ]
-    })
+    imports: [HomePageSecondSectionComponent]
+})
     .compileComponents();
 
     fixture = TestBed.createComponent(HomePageSecondSectionComponent);

@@ -48,13 +48,13 @@ namespace webapi.Controllers
                 {
                     return Conflict(new
                     {
-                        Message = "Product already exist in the cart."
+                        Message = "Product already exist in the cart!"
                     });
                 }
             }
             return Ok(new
             {
-                Message = "Product added to the cart."
+                Message = "Product added to the cart!"
             });
         }
 
@@ -68,13 +68,33 @@ namespace webapi.Controllers
                 await _cartService.UpdateAsync(cart.Id, cart);
                 return Ok(new
                 {
-                    Message = "Product removed from cart."
+                    Message = "Product removed from cart!"
                 });
             }
 
             return BadRequest(new
             {
-                Message = "Product doesn't exist in the cart."
+                Message = "Product doesn't exist in the cart!"
+            });
+        }
+
+        [HttpGet("removeItemsFromUserCart/{username}")]
+        public async Task<IActionResult> RemoveItemsFromUserCart(string username)
+        {
+            var cart = await _cartService.GetByUserNameAsync(username);
+            if (cart != null && cart.Sneakers.Count > 0)
+            {
+                cart.Sneakers = new List<SneakersModel>();
+                await _cartService.UpdateAsync(cart.Id, cart);
+                return Ok(new
+                {
+                    Message = "All items removed from user cart!"
+                });
+            }
+
+            return BadRequest(new
+            {
+                Message = "Username doesn't contain any item in the cart!"
             });
         }
     }

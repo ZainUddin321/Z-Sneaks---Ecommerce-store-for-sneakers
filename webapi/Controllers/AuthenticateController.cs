@@ -34,7 +34,7 @@ namespace webapi.Controllers
             return Ok(new
             {
                 Token = token,
-                Message = "Login Success!"
+                Message = "Login successful!"
             });
         }
 
@@ -49,14 +49,14 @@ namespace webapi.Controllers
             if (user != null)
                 return Conflict(new
                 {
-                    Message = "User with this name already exist."
+                    Message = "User with this name already exist!"
                 });
 
             await _usersService.CreateAsync(userInfo);
 
             return Ok(new
             {
-                Message = "User Registered!"
+                Message = "Account has been created successfully!"
             });
         }
 

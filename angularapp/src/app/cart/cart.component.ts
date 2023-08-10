@@ -1,17 +1,34 @@
-import { Component, ElementRef } from '@angular/core';
+import { Component} from '@angular/core';
 import { CartService } from '../Services/cart.service';
 import { Sneakers } from '../Services/sneakers-api.service';
-
+import { FormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
+import { MatIconModule } from '@angular/material/icon';
+import { CommonModule, NgFor } from '@angular/common';
+import { NgToastService } from 'ng-angular-popup';
+import { CartSummaryComponent } from "../cart-summary/cart-summary.component";
+import { CartOrderComponent } from '../cart-order/cart-order.component';
 @Component({
-  selector: 'app-cart',
-  templateUrl: './cart.component.html',
-  styleUrls: ['./cart.component.css'],
+    selector: 'app-cart',
+    templateUrl: './cart.component.html',
+    styleUrls: ['./cart.component.css'],
+    standalone: true,
+    imports: [
+        NgFor,
+        MatIconModule,
+        RouterLink,
+        FormsModule,
+        CommonModule,
+        CartSummaryComponent,
+        CartOrderComponent
+    ]
 })
 export class CartComponent {
   public sneakers:Sneakers[]=[];
   public totalPrice: number=0;
   public coupon:string="";
-  constructor(private cartService:CartService){}
+  public cartPageType: string = "Summary";
+  constructor(private cartService:CartService, private toast: NgToastService){}
 
   ngOnInit(){
     this.cartService.getProductsOfCart().subscribe((result=> {
@@ -22,15 +39,20 @@ export class CartComponent {
         });
       }
     }),
-    (error => console.log(error)));
+    (error => {
+      this.toast.error({detail:"Error", summary:"Unable to get cart items!", duration:2000});
+    }));
   }
 
   removeFromCart(sneaker:Sneakers, cartItem:HTMLSpanElement){
     this.cartService.removeFromCart(sneaker).subscribe((result)=>{
       this.totalPrice -= sneaker.retailPriceCents/100;
       cartItem.remove();
-      console.log(result);
-    }, (error)=>console.log(error));
+      this.toast.success({detail:"Success", summary:result.message, duration:2000});
+    }, (error)=>{
+      console.log(error);
+      this.toast.error({detail:"Error", summary:error.error.message, duration:2000});
+    });
   }
 
   incrementCounter(counter:HTMLSpanElement, price:HTMLSpanElement, sneaker:Sneakers){
@@ -54,4 +76,11 @@ export class CartComponent {
     }
   }
 
+  removeItemsFromCart(){
+    this.sneakers = [];
+  }
+
+  changeCartPageType(type:string){
+    this.cartPageType = type;
+  }
 }
