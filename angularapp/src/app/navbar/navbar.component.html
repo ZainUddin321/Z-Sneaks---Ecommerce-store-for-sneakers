@@ -20,9 +20,17 @@
           <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             COLLECTIONS
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">MEN</a>
-            <a class="dropdown-item" href="#">WOMEN</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="font-size: 1em;">
+            <button class="dropdown-item" (click)="openShoeCollection('trendindNow-collection')">TRENDING</button>
+            <button class="dropdown-item" (click)="openShoeCollection('newReleases-collection')">NEW RELEASES</button>
+            <button class="dropdown-item" (click)="openShoeCollection('sneakerOfTheWeek-collection')">SNEAKERS OF THE WEEK</button>
+            <button class="dropdown-item" (click)="openShoeCollection('limitedEdition-collection')">LIMITED EDITION</button>
+            <button class="dropdown-item" (click)="openShoeCollection('lifeStyle-collection')">LIFESTYLE FASHION</button>
+            <button class="dropdown-item" (click)="openShoeCollection('iconic-collection')">ICONIC</button>
+            <button class="dropdown-item" (click)="openShoeCollection('running-collection')">RUNNING</button>
+            <button class="dropdown-item" (click)="openShoeCollection('sneakerHead-collection')">SNEAKERHEAD CLASSICS</button>
+            <button class="dropdown-item" (click)="openShoeCollection('casual-collection')">CASUAL</button>
+            <button class="dropdown-item" (click)="openShoeCollection('comfort-collection')">COMFORT</button>
           </div>
         </li>
         <li class="nav-item dropdown" *ngIf="isUserLoggedIn; else elseBlock">

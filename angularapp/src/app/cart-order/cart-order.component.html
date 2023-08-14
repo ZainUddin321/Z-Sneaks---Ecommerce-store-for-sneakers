@@ -14,7 +14,7 @@
         <input id="cart-address" name="address" class="cart-input" placeholder="Enter your address" required ngModel/>
 
         <p>CARD#</p>
-        <input id="cart-cardNo" name="cardNumber" class="cart-input" placeholder="Enter your Card number" required ngModel/>
+        <input id="cart-cardNo" name="cardNumber" class="cart-input" placeholder="Enter your Card number" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" maxlength="19" (keyup)="onCardNumberFieldKeyUp($event)"  required ngModel/>
 
         <div class="cart-payment-method-radio-container">
             <div class='cart-payment-method-radio-control'>

@@ -39,4 +39,14 @@ export class CartOrderComponent {
       this.toast.error({detail:"Error", summary:"You have no product in your card!", duration:2000});
     });
   }
+
+  onCardNumberFieldKeyUp(element:any){
+    let ele:any = document.getElementById(element.currentTarget.id);
+    if(ele){
+      let value = ele.value.split('-').join(''); 
+      let finalVal = value.match(/.{1,4}/g).join('-');
+      ele.value = finalVal;
+    }   // Remove dash (-) if mistakenly entered.
+
+  }
 }

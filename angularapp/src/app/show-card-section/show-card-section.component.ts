@@ -12,4 +12,5 @@ import { NgFor } from '@angular/common';
 export class ShowCardSectionComponent {
   @Input() sneakers: Sneakers[]=[];
   @Input() Title: string="";
+  @Input() SectionId: string="";
 }

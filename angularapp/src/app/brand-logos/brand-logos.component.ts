@@ -17,7 +17,7 @@ export class BrandLogosComponent {
   @ViewChild('brand7') brand7!: ElementRef;
 
   ngAfterViewInit() {
-    const threshold = 0.5; // how much % of the element is in view
+    const threshold = 0.3; // how much % of the element is in view
     const observer = new IntersectionObserver(
         (entries) => {
             entries.forEach((entry) => {

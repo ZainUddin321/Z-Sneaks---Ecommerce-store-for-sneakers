@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "6471f75e394fa861bf950fed"
+  },
+  "firstName": "Zain",
+  "lastName": "Uddin",
+  "userName": "zain123",
+  "email": "zain@gmail.com",
+  "password": "zain123"
+},{
+  "_id": {
+    "$oid": "6484e4c10e7ab6e0595db9e8"
+  },
+  "firstName": "Zain",
+  "lastName": "Uddin",
+  "userName": "zainuddin123",
+  "email": "zain.great321@gmail.com",
+  "password": "zainuddin123"
+},{
+  "_id": {
+    "$oid": "648d7e934930031b88896df7"
+  },
+  "firstName": "Basit",
+  "lastName": "Uddin",
+  "userName": "basituddin123",
+  "email": "basit@gmail.com",
+  "password": "basituddin123"
+},{
+  "_id": {
+    "$oid": "648d81ca4930031b88896df8"
+  },
+  "firstName": "Taimoor",
+  "lastName": "Imran",
+  "userName": "taimoorimran123",
+  "email": "taimoor92@gmail.com",
+  "password": "taimoorimran123"
+},{
+  "_id": {
+    "$oid": "648d82974930031b88896df9"
+  },
+  "firstName": "Alyan",
+  "lastName": "Khan",
+  "userName": "alyan123",
+  "email": "alyan123@gmail.com",
+  "password": "alyan123"
+},{
+  "_id": {
+    "$oid": "6496d8afe829bd0dbe701e3c"
+  },
+  "firstName": "Zain",
+  "lastName": "Uddin",
+  "userName": "zainuddin12",
+  "email": "zain@gmail.com",
+  "password": "asdasdasd"
+}]

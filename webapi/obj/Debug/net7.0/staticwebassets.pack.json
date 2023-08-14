@@ -1,324 +1,456 @@
 {
   "Files": [
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\105568_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\105568_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\116662_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\116662_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\AGENCYB.666aa85e764d0297.TTF",
+      "PackagePath": "staticwebassets\\AGENCYB.666aa85e764d0297.TTF"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\13607_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\13607_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\AGENCYR.8b393193d9211d92.TTF",
+      "PackagePath": "staticwebassets\\AGENCYR.8b393193d9211d92.TTF"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\144690_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\144690_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\NoizeSportFreeVertionRegular.6e9ff74a9dcaae08.ttf",
+      "PackagePath": "staticwebassets\\NoizeSportFreeVertionRegular.6e9ff74a9dcaae08.ttf"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\152603_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\152603_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\VTFRedzone-ClassicOblique.b5af3835996028c3.ttf",
+      "PackagePath": "staticwebassets\\VTFRedzone-ClassicOblique.b5af3835996028c3.ttf"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\152982_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\152982_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\VerminVibes2Nightclub.917e2028f7e349c2.otf",
+      "PackagePath": "staticwebassets\\VerminVibes2Nightclub.917e2028f7e349c2.otf"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\155573_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\155573_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\VerminVibes4Helium.8eb4281dcf0691c8.otf",
+      "PackagePath": "staticwebassets\\VerminVibes4Helium.8eb4281dcf0691c8.otf"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\180155_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\180155_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\fonts\\AGENCYB.TTF",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AGENCYB.TTF"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\195483_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\195483_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\fonts\\AGENCYR.TTF",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AGENCYR.TTF"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\218099_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\218099_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\fonts\\NoizeSportFreeVertionRegular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\NoizeSportFreeVertionRegular.ttf"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\235806_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\235806_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\fonts\\VTFRedzone-ClassicOblique.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\VTFRedzone-ClassicOblique.ttf"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\240_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\240_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\fonts\\VerminVibes2Nightclub.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\VerminVibes2Nightclub.otf"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\259509_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\259509_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\fonts\\VerminVibes4Helium.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\VerminVibes4Helium.otf"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\298048_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\298048_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\fonts\\defused.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\defused.ttf"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\303217_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\303217_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\gifs\\sneaker-1556142169.gif",
+      "PackagePath": "staticwebassets\\assets\\gifs\\sneaker-1556142169.gif"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\303229_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\303229_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\1201.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1201.jpg"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\306892_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\306892_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\1202.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1202.jpg"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\31342_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\31342_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\1203.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1203.jpg"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\335047_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\335047_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\1204.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1204.jpg"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\335725_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\335725_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\branding page",
+      "PackagePath": "staticwebassets\\assets\\images"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\348063_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\348063_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\front-page-background.png",
+      "PackagePath": "staticwebassets\\assets\\images\\front-page-background.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\351614_00.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\351614_00.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\shoe1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe1.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\351623_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\351623_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\shoe2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe2.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\357808_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\357808_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\shoe3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\shoe3.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\365514_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\365514_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\105568_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\105568_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\376931_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\376931_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\116662_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\116662_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\394710_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\394710_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\13607_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\13607_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\402491_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\402491_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\144690_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\144690_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\404758_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\404758_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\152603_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\152603_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\411931_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\411931_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\152982_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\152982_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\424152_00.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\424152_00.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\155573_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\155573_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\429772_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\429772_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\180155_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\180155_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\459705_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\459705_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\195483_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\195483_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\461782_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\461782_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\218099_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\218099_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\464372_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\464372_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\235806_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\235806_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\466439_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\466439_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\240_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\240_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\473391_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\473391_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\259509_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\259509_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\476518_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\476518_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\298048_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\298048_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\478648_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\478648_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\303217_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\303217_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\478963_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\478963_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\303229_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\303229_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\479524_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\479524_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\306892_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\306892_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\479750_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\479750_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\31342_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\31342_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\480136_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\480136_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\335047_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\335047_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\480142_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\480142_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\335725_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\335725_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\482531_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\482531_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\348063_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\348063_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\484799_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\484799_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\351614_00.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\351614_00.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\485842_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\485842_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\351623_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\351623_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\486579_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\486579_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\357808_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\357808_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\487214_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\487214_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\365514_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\365514_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\487222_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\487222_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\376931_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\376931_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\488028_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\488028_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\394710_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\394710_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\488879_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\488879_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\402491_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\402491_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\489359_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\489359_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\404758_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\404758_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\491192_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\491192_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\411931_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\411931_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\491891_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\491891_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\424152_00.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\424152_00.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\491897_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\491897_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\429772_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\429772_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\492186_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\492186_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\459705_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\459705_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\494127_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\494127_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\461782_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\461782_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\497870_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\497870_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\464372_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\464372_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\500924_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\500924_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\466439_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\466439_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\503571_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\503571_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\473391_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\473391_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\504006_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\504006_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\476518_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\476518_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\504187_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\504187_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\478648_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\478648_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\507173_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\507173_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\478963_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\478963_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\507844_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\507844_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\479524_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\479524_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\508082_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\508082_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\479750_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\479750_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\508101_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\508101_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\480136_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\480136_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\509480_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\509480_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\480142_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\480142_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\512006_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\512006_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\482531_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\482531_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\52015_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\52015_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\484799_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\484799_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\554724_065.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\554724_065.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\485842_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\485842_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\77243_00.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\77243_00.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\486579_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\486579_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\AJ7747_800.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\AJ7747_800.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\487214_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\487214_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\CD6578_507.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\CD6578_507.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\487222_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\487222_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\CD6846_002.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\CD6846_002.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\488028_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\488028_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\CM100018M.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\CM100018M.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\488879_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\488879_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\EF3326.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\EF3326.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\489359_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\489359_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\FU9013.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\FU9013.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\491192_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\491192_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\SP_AJ1_LOW_BP.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\SP_AJ1_LOW_BP.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\491891_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\491891_00.png.png"
     },
     {
-      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\Images\\Sneakers\\TR_JSP_5_ICE.png.png",
-      "PackagePath": "staticwebassets\\Images\\Sneakers\\TR_JSP_5_ICE.png.png"
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\491897_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\491897_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\492186_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\492186_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\494127_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\494127_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\497870_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\497870_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\500924_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\500924_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\503571_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\503571_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\504006_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\504006_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\504187_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\504187_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\507173_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\507173_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\507844_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\507844_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\508082_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\508082_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\508101_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\508101_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\509480_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\509480_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\512006_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\512006_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\52015_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\52015_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\554724_065.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\554724_065.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\77243_00.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\77243_00.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\AJ7747_800.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\AJ7747_800.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\CD6578_507.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\CD6578_507.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\CD6846_002.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\CD6846_002.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\CM100018M.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\CM100018M.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\EF3326.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\EF3326.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\FU9013.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\FU9013.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\SP_AJ1_LOW_BP.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\SP_AJ1_LOW_BP.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\assets\\images\\sneakers\\TR_JSP_5_ICE.png.png",
+      "PackagePath": "staticwebassets\\assets\\images\\sneakers\\TR_JSP_5_ICE.png.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\front-page-background.21b88080ce9da5db.png",
+      "PackagePath": "staticwebassets\\front-page-background.21b88080ce9da5db.png"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\main.076b9d2ca83d36fa.js",
+      "PackagePath": "staticwebassets\\main.076b9d2ca83d36fa.js"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\polyfills.7b3e922a8b26815f.js",
+      "PackagePath": "staticwebassets\\polyfills.7b3e922a8b26815f.js"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\runtime.2d99e508040b4ce1.js",
+      "PackagePath": "staticwebassets\\runtime.2d99e508040b4ce1.js"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\scripts.2dd28fc447243438.js",
+      "PackagePath": "staticwebassets\\scripts.2dd28fc447243438.js"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\sneaker-1556142169.74c7a496364f47c1.gif",
+      "PackagePath": "staticwebassets\\sneaker-1556142169.74c7a496364f47c1.gif"
+    },
+    {
+      "Id": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\styles.ac2e7d5e9d4748b0.css",
+      "PackagePath": "staticwebassets\\styles.ac2e7d5e9d4748b0.css"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.webapi.props",

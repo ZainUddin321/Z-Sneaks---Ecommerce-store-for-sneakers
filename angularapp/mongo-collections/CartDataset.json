@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "648deda2961fc83f924a9e25"
+  },
+  "userName": "zainuddin123",
+  "sneakers": [
+    {
+      "_id": {
+        "$oid": "643d8d35fe25d9b5b5e0533c"
+      },
+      "box_condition": "good_condition",
+      "brand_name": "Air Jordan",
+      "category": [
+        "lifestyle"
+      ],
+      "collection_slugs": [
+        "air-jordan-4",
+        "air-jordan-4-bred",
+        "belly",
+        "brokenrecord",
+        "bs",
+        "capspace",
+        "congrats",
+        "friendzone",
+        "greatness",
+        "hangtime",
+        "idiots",
+        "jj",
+        "just-dropped",
+        "just-dropped-1",
+        "kfc",
+        "official",
+        "pka",
+        "ringer",
+        "sneakdiss",
+        "solid",
+        "tape",
+        "teeth",
+        "theread",
+        "thestarters",
+        "top-20-trending",
+        "wgg",
+        "woj"
+      ],
+      "color": "Black",
+      "designer": "Tinker Hatfield",
+      "details": "Black/Cement Grey-Summit White-Fire Red",
+      "gender": [
+        "men"
+      ],
+      "grid_picture_url": "../../assets/images/sneakers/461782_00.png.png",
+      "has_picture": true,
+      "has_stock": true,
+      "sneakerId": 461782,
+      "keywords": [
+        "black cement",
+        "bred",
+        "jordan 4 bred"
+      ],
+      "main_picture_url": "../../assets/images/sneakers/461782_00.png.png",
+      "midsole": "Air",
+      "name": "Air Jordan 4 Retro OG 'Bred' 2019",
+      "nickname": "Bred",
+      "original_picture_url": "../../assets/images/sneakers/461782_00.png.png",
+      "product_template_id": 461782,
+      "release_date": "Sun May 05 2019",
+      "release_date_unix": 1557014399,
+      "release_year": 2019,
+      "retail_price_cents": 20000,
+      "shoe_condition": "new_no_defects",
+      "silhouette": "Air Jordan 4",
+      "size_range": [
+        7,
+        7.5,
+        8,
+        8.5,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        11.5,
+        12,
+        12.5,
+        13,
+        13.5,
+        14,
+        14.5,
+        15,
+        15.5,
+        16,
+        16.5,
+        17,
+        17.5,
+        18
+      ],
+      "sku": "308497 060",
+      "slug": "air-jordan-4-retro-bred-2019-308497-060",
+      "status": "active",
+      "story_html": "<p>The 2019 edition of the Air Jordan 4 ‘Bred’ celebrates the 30th anniversary of the classic silhouette, appearing in the same colorway that Michael Jordan wore when he sank ‘The Shot’ during the first round of the 1989 NBA playoffs. It’s rendered in a build that’s faithful to the original, complete with a black nubuck upper, visible Air Sole cushioning underfoot and Nike Air branding on the heel.</p>\n",
+      "upper_material": ""
+    }
+  ]
+}]
