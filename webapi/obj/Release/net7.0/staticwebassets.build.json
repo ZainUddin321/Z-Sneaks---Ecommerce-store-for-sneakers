@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h8zO/wuW3ap3YEqzuxpdXy+2zVRxHAnFkLzHjb8G3N8=",
+  "Hash": "5TdF1wtS6xMcXvZYjUY3Nv5QqBeoNyo2j/9miZxoNWs=",
   "Source": "webapi",
   "BasePath": "_content/webapi",
   "Mode": "Default",
@@ -1785,12 +1785,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\main.4d39cfa315c7d3ac.js",
+      "Identity": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\main.692649bd10e96fa5.js",
       "SourceId": "webapi",
       "SourceType": "Discovered",
       "ContentRoot": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\",
       "BasePath": "_content/webapi",
-      "RelativePath": "main.4d39cfa315c7d3ac.js",
+      "RelativePath": "main.692649bd10e96fa5.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1799,7 +1799,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main.4d39cfa315c7d3ac.js"
+      "OriginalItemSpec": "wwwroot\\main.692649bd10e96fa5.js"
     },
     {
       "Identity": "G:\\source\\repos\\Z-SNEAKERS\\webapi\\wwwroot\\NoizeSportFreeVertionRegular.6e9ff74a9dcaae08.ttf",

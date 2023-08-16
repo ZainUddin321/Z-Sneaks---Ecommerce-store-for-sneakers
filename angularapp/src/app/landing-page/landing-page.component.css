@@ -10,6 +10,7 @@
 }
 
 #landing-page-container{
+    position: relative;
     display: flex;
     justify-content: space-between;
     padding-top:60px;
@@ -50,6 +51,7 @@
 .landing-page-shoe-image{
     position:absolute;
     display: block;
+    overflow: hidden;
     right:0;
     z-index: 1;
     height:550px;
