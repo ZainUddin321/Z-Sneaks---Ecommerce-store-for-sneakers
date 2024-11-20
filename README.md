@@ -1,6 +1,6 @@
 # Z-Sneaks - Ecommerce-store-for-sneakers
-This platform ultimate destination for authentic and rare sneakers from the most sought-after brands in the industry. Our store offers a wide selection of sneakers from around the world, sourced from trusted sellers and authenticated by our team of experts to ensure that every pair is 100% authentic.
 
+This platform ultimate destination for authentic and rare sneakers from the most sought-after brands in the industry. Our store offers a wide selection of sneakers from around the world, sourced from trusted sellers and authenticated by our team of experts to ensure that every pair is 100% authentic.
 
 This project is built on top of the latest .NET 6 framework, using Angular for the frontend and MongoDB for the database. This powerful combination allows me to create a modern and scalable web application that can handle complex workflows and large amounts of data.
 
