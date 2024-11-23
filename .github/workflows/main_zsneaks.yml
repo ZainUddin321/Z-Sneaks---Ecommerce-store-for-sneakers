@@ -54,6 +54,7 @@ jobs:
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
+        working-directory: ./webapi
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.GITHUB_WORKSPACE}}\myapp
