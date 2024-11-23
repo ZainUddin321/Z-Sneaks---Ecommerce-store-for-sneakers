@@ -30,8 +30,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  id-token: write
   contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -68,8 +69,9 @@ jobs:
           path: ${{env.GITHUB_WORKSPACE}}\myapp
 
   deploy:
-    permissions:
-      contents: none
+    permissions:      
+      contents: read
+      id-token: write
     runs-on: windows-latest
     needs: build
     environment:
