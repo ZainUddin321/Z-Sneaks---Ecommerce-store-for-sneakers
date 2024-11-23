@@ -61,7 +61,7 @@ jobs:
         working-directory: ./webapi
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: .net-app
           path: ${{env.GITHUB_WORKSPACE}}\myapp
